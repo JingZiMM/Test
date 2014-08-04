@@ -15,6 +15,9 @@ using System.Collections.Generic;
 
 namespace System.ComponentModel
 {
+    /// <summary>
+    /// The class Notify Property Changed Base.
+    /// </summary>
     public abstract class NotifyPropertyChangedBase : INotifyPropertyChanged
     {
         public event PropertyChangedEventHandler PropertyChanged = delegate { };
